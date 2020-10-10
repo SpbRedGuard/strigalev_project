@@ -10,10 +10,10 @@ public class Main_5 {
         staffArr [4] = new Staff("Игнатьев", "Игнат", "Игнатович","администратор","igmech@gmail.com","+7999333222151",40000, 44);
 
         for (int i=0; i < staffArr.length; i++) {
-            if (staffArr[i].age > 40) {
-                staffArr[i].info();
-            }
-            }
+             if (staffArr[i].getAge() > 40){
+             staffArr[i].getInfo();
+             }
+        }
         }
         }
 

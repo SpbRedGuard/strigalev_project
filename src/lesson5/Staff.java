@@ -16,21 +16,30 @@ public class Staff {
 
     * С помощью цикла вывести информацию только о сотрудниках старше 40 лет; */
 
-    String firstName;
-    String secondName;
-    String thirdName;
-    String position;
-    String email;
-    String telNumber;
-    int salary;
-    int age;
+   private String firstName;
+   private String secondName;
+   private String thirdName;
+   private String position;
+   private String email;
+   private String telNumber;
+   private int salary;
+   private int age;
 
     public Staff(String secondName, String firstName, String thirdName, String position, String email, String telNumber, int salary, int age) {
+        this.secondName = secondName;
+        this.firstName = firstName;
+        this.thirdName = thirdName;
+        this.position = position;
+        this.email = email;
+        this.telNumber = telNumber;
+        this.salary = salary;
+        this.age = age;
     }
 
-    public void info(){
-        System.out.printf("Staff %s %s %s %s %s %s %d %d",secondName, firstName, thirdName, position, email, telNumber, salary, age);
+    public void getInfo(){
+        System.out.printf("Сотрудник %s %s %s %s %s %s %d %d\n",secondName, firstName, thirdName, position, email, telNumber, salary, age);
     }
-
+    int getAge() {
+       return age;
+    }
 }
-
