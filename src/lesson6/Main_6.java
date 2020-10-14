@@ -5,7 +5,7 @@ public class Main_6 {
 
         //чтобы реализовать подсчёт нужно создать массив из всех этих животных
 
-      Cat cat1 = new Cat("Cat","Leonard", 190);
+    /*  Cat cat1 = new Cat("Cat","Leonard", 190);
         Cat cat2 = new Cat("Cat","Rafael", 170);
         Cat cat3 = new Cat("Cat","Socrat",130);
         Dog dog1 = new Dog("Dog","Rudolf",360, 6);
@@ -44,7 +44,21 @@ public class Main_6 {
 
         }   System.out.println("Количество котов = " + countCats);
             System.out.println("Количество собак = " + countDogs);
-            System.out.println("Количество животных = " + countAnimals);
+            System.out.println("Количество животных = " + countAnimals); */
+        Animals[] animals={
+                new Cat("Barsik"),
+                new Dog("Tuzik"),
+                new Cat("Tigr", 50)
+        };
+
+        for (int i = 0; i <animals.length ; i++) {
+            animals[i].jump(1);
+            animals[i].run(210);
+            animals[i].swim(5);
+        }
+
+        System.out.println(Animals.getAnimalCount());
+        System.out.println(Cat.getAnimalCount());
     }
 }
 
