@@ -5,7 +5,7 @@ public class MainStage2_Lesson2 {
         int result = 0;
 
         String[][] arr = {{"1","2","3","4"},{"1","2","3","4"}};
-        String[][] err_arr = {{"1","2","3","4"},{"1","2","3","4","5","6"}};
+        String[][] err_arr = {{"1","2","3","4"},{"1","2","3"}};
         String[][] err_format = {{"1","2","3","empty",},{"1","2","3","4"}};
 
         System.out.println("Старт");
