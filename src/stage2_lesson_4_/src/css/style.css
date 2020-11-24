@@ -1,0 +1,11 @@
+.root{
+    -fx-background-color: grey;
+}
+#send:hover {
+    -fx-font-weight: bold;
+}
+
+.text-area{
+    -fx-background-color: #403a3a;
+}
+

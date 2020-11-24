@@ -2,7 +2,7 @@ package stage2_lesson3;
 import  java.util.*;
 
 public class Phone {
-    private HashMap<String, Set<String>> phoneBook = new HashMap<>(); // инициализируем HashMap
+    private HashMap<String, Set<String>> phoneBook = new HashMap<>(); 
 
     public void add (String name, String phone){
         Set<String> tel = phoneBook.getOrDefault(name, new HashSet<>()); // Set ипользуем для возможности записи нескольких phone к одному name

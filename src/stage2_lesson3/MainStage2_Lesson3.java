@@ -8,7 +8,7 @@ import java.util.Random;
 public class MainStage2_Lesson3 {
     public static void main(String[] args) {
 
-        String [] wordsArray = {"Один", "Два", "Три","Четыре","Пять","Шесть","Семь","Восемь","Девять","Десять","Одиннадцать","Двенадцать", "Один", "Два", "Три"};
+        String [] wordsArray = {"Один", "Два", "Три","Четыре","Пять","Шесть","Семь","Восемь","Девять","Десять","Одиннадцать","Двенадцать", "Два", "Два", "Три"};
         System.out.println(Arrays.toString(wordsArray)); // Arrays.toString выводит в строковом виде данные массива
 
         HashMap<String, Integer> check = new HashMap<>();
@@ -19,7 +19,7 @@ public class MainStage2_Lesson3 {
         System.out.println();
 
         Phone phone = new Phone();
-        phone.add("Cruel", "3339922");
+        phone.add("Crue", "3339922");
         phone.add("Everylight","2291023");
         phone.add("Everylight","2451843");
         phone.add("Cromwell","4199040");
@@ -27,7 +27,7 @@ public class MainStage2_Lesson3 {
         phone.add("Bluebird","5531653","9874517");
 
 
-        System.out.println("tel " + phone.getPhoneNumber("Cruel"));
+        System.out.println("tel " + phone.getPhoneNumber("Crue"));
         System.out.println("tel " + phone.getPhoneNumber("Everylight"));
         System.out.println("tel " + phone.getPhoneNumber("Bluebird"));
     }
